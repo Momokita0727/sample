@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+  body{
+    width: 800px;
+    margin: auto;
+  }
+  header{
+    background-color: #eecccc;
+    padding: 10px;
+  }
+  h1,h2{
+    font-family: fantasy;
+    border-left: solid 10px red;
+    border-bottom: solid 1px red;
+    text-shadow: 2px 2px #red;
+    padding-left: 5px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  nav p{
+    width: 150px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  main{
+    display:flex;
+  }
+  .main_left{
+    background-color: #ccffcc;
+    width: 33%
+  }
+  .main_right{
+    background-color: #ccccff;
+    width: 67%;
+    display: flex;
+    justify-content: space-around;
+  }
+  section{
+    text-align: center;
+    margin-top: 25px;
+  }
+  img{
+    width: 100px;
+  }
+  footer{
+    background-color: #000000;
+    padding: 10px;
+    color: #ffffff;
+  }
+  #copy{
+    text-align: right;
+    font-size: 12px;
+  }
+  </style>
+  <body>
+    <header>
+      <h1>2021 Web Page</h1>
+      <nav>
+        <p>top</p>
+        <p>SUB1</p>
+        <p>SUB2</p>
+      </nav>
+
+    </header>
+    <main>
+      <div class="main_left">
+        <h2>Contuct Me</h2>
+        <ol>
+          <li>Top</li>
+          <li>SUB1</li>
+          <li>SUB2</li>
+        </ol>
+
+      </div>
+      <div class="main_right">
+        <section>
+          <img src="iconfacebook.png" alt="Facebook">
+          <p>Facebook</p>
+
+        </section>
+        <section>
+          <img src="icontwitter.png" alt="Twiter">
+          <p>Twiter</p>
+        </section>
+        <section>
+          <img src="iconinsta.png" alt="Instagram">
+          <p>Instagram</p>
+        </section>
+
+      </div>
+
+    </main>
+    <footer>
+      <p>2021/9/24</p>
+      <p id="copy">Copyright &copy; 2021 AzumaEngineeringCollege all right reserved.</p>
+
+    </footer>
+
+  </body>
+</html>
